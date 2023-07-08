@@ -4,8 +4,9 @@ Front-end
 
 
 HTML - elements of a web page
-HTML5 (Hypertext Markup Language) is the latest version of HTML, which is the standard markup language for creating web pages and web applications. In HTML5, several new elements were introduced to provide better structure and semantics to web documents. Here are some important HTML5 elements you should know when creating a web page:
-
+HTML5 (Hypertext Markup Language) is the latest version of HTML, which is the standard markup language for creating web pages and web applications. In HTML5, several new elements were introduced to provide better structure and semantics to web documents.
+Here are some important HTML5 elements you should know when creating a web page:
+<!--
 <!DOCTYPE html>: This declaration is used to indicate that the document is an HTML5 document.
 
 <html>: The root element of an HTML page. It wraps all the other elements on the page.
@@ -45,7 +46,7 @@ HTML5 (Hypertext Markup Language) is the latest version of HTML, which is the st
 <header>, <nav>, <main>, <section>, <article>, <footer>: These elements provide semantic structure to different parts of a web page, such as the header, navigation menu, main content, sections, articles, and footer.
 
 <video> and <audio>: These elements are used to embed videos and audio files, respectively, within a web page.
-
+-->
 
 
 RESOURCES
@@ -73,7 +74,8 @@ Provide a document type declaration: Start your HTML document with the <!DOCTYPE
 
 Use valid HTML: Validate your HTML code to ensure it conforms to the HTML specification. Tools like the W3C Markup Validation Service can help you identify and fix any syntax errors or issues.
 
-Use descriptive and accessible text: Provide meaningful and descriptive text within elements like headings (<h1>-<h6>), links (<a>), and alternative text for images (<img>). This improves accessibility for screen readers and search engine optimization.
+Use descriptive and accessible text:
+Provide meaningful and descriptive text within elements like headings <!-- (<h1>-<h6>), links (<a>), and alternative text for images (<img>). This improves accessibility for screen readers and search engine optimization.
 
 Separate structure from presentation: Use CSS (Cascading Style Sheets) to define the visual presentation of your web page, rather than relying heavily on inline styles or deprecated HTML attributes like <font> or <b>. This separation of concerns makes your code more maintainable and easier to update.
 
@@ -83,7 +85,7 @@ Optimize for performance: Optimize your HTML for faster page loading. Minimize t
 
 Consider accessibility: Ensure that your HTML is accessible to users with disabilities. Use proper headings (<h1>-<h6>), provide alternative text for images (<img>), use appropriate color contrast, and follow other accessibility guidelines outlined in the Web Content Accessibility Guidelines (WCAG).
 
-Keep up with evolving standards: Stay updated with the latest HTML standards, including HTML5 and its future iterations. HTML evolves over time, and new elements, attributes, and features may be introduced. Stay informed and adopt best practices as they emerge.
+Keep up with evolving standards: Stay updated with the latest HTML standards, including HTML5 and its future iterations. HTML evolves over time, and new elements, attributes, and features may be introduced. Stay informed and adopt best practices as they emerge. -->
 
 
 
@@ -94,6 +96,7 @@ Open a text editor or an integrated development environment (IDE) to create a ne
 
 Start with the document type declaration. Add the following line at the very beginning of your HTML file:
 
+<!--
 <!DOCTYPE html>
 Create the opening and closing <html> tags. All the other elements will be placed within these tags.
 
@@ -404,8 +407,8 @@ code
       <td>Data 2</td>
       <td>Data 3</td>
    </tr>
-   <!-- Add more rows and data as needed -->
-</table>
+    Add more rows and data as needed 
+</table> -->
 Define table headers: Use the <th> element to create table headers. These headers should represent the column labels or titles for your data.
 
 Add table data/cells: Use the <td> element to create table data or cells. These cells will contain the actual data or content you want to display.
@@ -589,7 +592,9 @@ To correctly structure an HTML page, you should follow a standardized structure 
 Document Type Declaration:
 
 Begin your HTML document with a document type declaration to specify the HTML version you are using.
-Example: <!DOCTYPE html>
+Example:
+<!--
+<!DOCTYPE html>
 HTML Element:
 
 Wrap the entire content of your HTML page inside the <html> element.
@@ -670,7 +675,7 @@ code
       <p>&copy; 2023 Your Website</p>
    </footer>
 </body>
-
+-->
 
 
 
