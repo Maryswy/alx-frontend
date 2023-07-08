@@ -151,8 +151,7 @@ Use the appropriate semantic tags for each section: Instead of relying on generi
 <footer>: Indicates the footer section of the web page. It typically includes copyright information, contact details, and links to related resources.
 Nest elements properly: Make sure to nest the semantic elements in a logical hierarchy that accurately reflects the structure of your content. For example, the <header> element might contain the site logo (<img>) and the navigation (<nav>) elements.
 
-php
-Copy code
+code
 <header>
    <img src="logo.png" alt="Logo">
    <nav>
@@ -165,8 +164,7 @@ Copy code
 </header>
 Use headings (<h1>-<h6>) appropriately: Headings play a crucial role in structuring your content. Use headings to provide hierarchical organization, with <h1> being the highest level and <h6> being the lowest. The <h1> tag is often used for the main title of the page, while subsequent headings (<h2>, <h3>, etc.) are used for subheadings.
 
-css
-Copy code
+code
 <main>
    <h1>Welcome to My Web Page</h1>
    <section>
@@ -193,8 +191,8 @@ The choice between using <div> and <span> elements depends on the specific use c
 Use <div> when you need to create a block-level container to group and style other elements. It is commonly used for layout purposes, creating sections, or dividing the content of a web page.
 Use <div> when you need to apply CSS styles or JavaScript behaviors to a larger section of content.
 Example: Wrapping a group of elements within a <div> to apply a common styling or layout structure.
-php
-Copy code
+
+code
 <div class="container">
    <h1>Heading</h1>
    <p>Paragraph content</p>
@@ -205,8 +203,8 @@ Copy code
 Use <span> when you need to apply styles or attach JavaScript behaviors to a specific section of text within a block-level element.
 Use <span> when you want to target and manipulate specific portions of text within a larger element.
 Example: Applying a CSS class or inline styling to a specific word or phrase within a paragraph.
-php
-Copy code
+
+code
 <p>
    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
    Aliquam <span class="highlight">volutpat</span> mi sit amet leo feugiat, ac viverra justo ullamcorper.
@@ -273,9 +271,7 @@ Use headings to summarize content: Each heading should provide a concise summary
 Limit the use of <h1>: Reserve the <h1> tag for the main title of your page. It should reflect the overall theme or purpose of the page and provide a clear context for the content that follows.
 
 Example of proper hierarchical order:
-
-html
-Copy code
+code
 <h1>Main Title</h1>
 <h2>Section 1</h2>
 <h3>Subsection 1.1</h3>
@@ -299,8 +295,7 @@ An ordered list represents a list of items in a specific order, usually with num
 To create an ordered list, use the <ol> element, and place each list item inside <li> (list item) tags.
 Example:
 
-html
-Copy code
+code
 <ol>
    <li>First item</li>
    <li>Second item</li>
@@ -317,8 +312,7 @@ An unordered list represents a list of items without any particular order. The i
 To create an unordered list, use the <ul> element, and place each list item inside <li> tags.
 Example:
 
-html
-Copy code
+code
 <ul>
    <li>Red</li>
    <li>Green</li>
@@ -330,9 +324,7 @@ Red
 Green
 Blue
 You can also create nested lists by placing one list inside another. For example:
-
-html
-Copy code
+code
 <ol>
    <li>First item</li>
    <li>Second item
@@ -403,9 +395,7 @@ To structure data in a table in HTML, follow these steps:
 Create the table structure: Start by using the <table> element to define the table. Inside the <table> element, you will include the table rows (<tr>) and table data/cells (<td>) or table headers (<th>) elements.
 
 Example:
-
-html
-Copy code
+code
 <table>
    <tr>
       <th>Header 1</th>
@@ -426,9 +416,7 @@ Add table data/cells: Use the <td> element to create table data or cells. These 
 Group rows with table sections: You can also use table sections to group rows together for better structure and styling. The sections include <thead> (table header), <tbody> (table body), and <tfoot> (table footer).
 
 Example:
-
-html
-Copy code
+code
 <table>
    <thead>
       <tr>
@@ -454,9 +442,7 @@ Copy code
 Use colspan and rowspan attributes: The colspan attribute allows a cell to span multiple columns, while the rowspan attribute allows a cell to span multiple rows. This can be useful for merging cells or creating more complex table structures.
 
 Example:
-
-html
-Copy code
+code
 <table>
    <tr>
       <th colspan="2">Header 1 and 2</th>
@@ -481,9 +467,7 @@ j.) How to integrate a video in a webpage
 Prepare your video file: Convert your video to a web-compatible format like MP4, WebM, or Ogg. It's recommended to provide multiple formats to support different browsers.
 
 Place the <video> element in your HTML:
-
-html
-Copy code
+code
 <video controls>
    <source src="video.mp4" type="video/mp4">
    <source src="video.webm" type="video/webm">
@@ -501,10 +485,9 @@ Add optional attributes:
 controls: This attribute adds video controls (play, pause, volume, etc.) to the video player. It allows users to interact with the video.
 autoplay: If you want the video to start playing automatically when the page loads, you can include the autoplay attribute.
 loop: To make the video play continuously in a loop, include the loop attribute.
-Example with additional attributes:
 
-html
-Copy code
+Example with additional attributes:
+code
 <video controls autoplay loop>
    <source src="video.mp4" type="video/mp4">
    <source src="video.webm" type="video/webm">
@@ -521,9 +504,7 @@ k.) How to integrate an audio file in a webpage
 Prepare your audio file: Convert your audio file to a web-compatible format like MP3, WAV, or Ogg. It's recommended to provide multiple formats to support different browsers.
 
 Place the <audio> element in your HTML:
-
-html
-Copy code
+code
 <audio controls>
    <source src="audio.mp3" type="audio/mpeg">
    <source src="audio.wav" type="audio/wav">
@@ -541,10 +522,9 @@ Add optional attributes:
 controls: This attribute adds audio controls (play, pause, volume, etc.) to the audio player. It allows users to interact with the audio.
 autoplay: If you want the audio to start playing automatically when the page loads, you can include the autoplay attribute.
 loop: To make the audio play continuously in a loop, include the loop attribute.
-Example with additional attributes:
 
-html
-Copy code
+Example with additional attributes:
+code
 <audio controls autoplay loop>
    <source src="audio.mp3" type="audio/mpeg">
    <source src="audio.wav" type="audio/wav">
@@ -564,8 +544,7 @@ Use the <img> element to embed an external image into your webpage.
 Set the src attribute of the <img> element to the URL of the image file.
 You can also provide alternative text using the alt attribute for accessibility purposes.
 Example:
-html
-Copy code
+code
 <img src="https://example.com/image.jpg" alt="Description of the image">
 Embedding Videos:
 
@@ -573,9 +552,9 @@ Use the <video> element to embed an external video into your webpage.
 Provide one or more <source> elements within the <video> element to specify different video formats.
 Set the src attribute of each <source> element to the URL of the video file, and define the MIME type using the type attribute.
 You can also include optional attributes like controls, autoplay, and loop.
+
 Example:
-html
-Copy code
+code
 <video controls>
    <source src="https://example.com/video.mp4" type="video/mp4">
    <source src="https://example.com/video.webm" type="video/webm">
@@ -586,9 +565,9 @@ Use the <audio> element to embed external audio content into your webpage.
 Similar to video embedding, provide one or more <source> elements within the <audio> element to specify different audio formats.
 Set the src attribute of each <source> element to the URL of the audio file, and define the MIME type using the type attribute.
 You can also include optional attributes like controls, autoplay, and loop.
+
 Example:
-html
-Copy code
+code
 <audio controls>
    <source src="https://example.com/audio.mp3" type="audio/mpeg">
    <source src="https://example.com/audio.wav" type="audio/wav">
@@ -618,20 +597,20 @@ HTML Element:
 
 Wrap the entire content of your HTML page inside the <html> element.
 The <html> element serves as the root element of your HTML document.
+
 Example:
-html
-Copy code
+code
 <!DOCTYPE html>
 <html>
 ...
 </html>
+
 Head Section:
 
 Within the <html> element, include the <head> section.
 The <head> section provides meta information, document title, and links to external resources.
 Example:
-html
-Copy code
+code
 <html>
 <head>
    <meta charset="UTF-8">
@@ -641,13 +620,13 @@ Copy code
 </head>
 ...
 </html>
+
 Body Section:
 
 Within the <html> element, include the <body> section.
 The <body> section contains the visible content of your web page.
 Example:
-html
-Copy code
+code
 <html>
 <head>
    ...
@@ -664,14 +643,14 @@ Copy code
    </footer>
 </body>
 </html>
+
 Structural Elements:
 
 Within the <body> section, use structural elements to organize and define the layout of your web page.
 Examples of structural elements include <header>, <nav>, <main>, <section>, <article>, <aside>, and <footer>.
 Use these elements appropriately to provide semantic structure to your page.
 Example:
-html
-Copy code
+code
 <body>
    <header>
       <h1>Website Title</h1>
