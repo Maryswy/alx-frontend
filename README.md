@@ -61,7 +61,7 @@ HTML Cheat Sheet - WebsiteSetup
 
 LEARNING OBJECTIVES
 
-a.) Guidelines to follow for HTML
+a. Guidelines to follow for HTML
 
 When working with HTML, it's important to follow certain guidelines and best practices to ensure that your code is well-structured, accessible, and maintainable. Here are some guidelines to consider when working with HTML:
 
@@ -88,7 +88,7 @@ Keep up with evolving standards: Stay updated with the latest HTML standards, in
 
 
 
-b.) How to create the skeleton of an HTML5 page
+b. How to create the skeleton of an HTML5 page
 
 Open a text editor or an integrated development environment (IDE) to create a new HTML file.
 
@@ -136,7 +136,7 @@ Once you have added the desired content, save the file with an appropriate name 
 
 
 
-c.) How to use semantic HTML tags to structure a web page
+c. How to use semantic HTML tags to structure a web page
 
 Identify the main sections of your web page: Determine the major sections or divisions of your content. For example, you might have a header, navigation, main content, sidebar, and footer.
 
@@ -182,7 +182,7 @@ By using semantic HTML tags, you provide meaning and structure to your web page,
 
 
 
-d.) Which use cases to use div vs span
+d. Which use cases to use div vs span
 
 The choice between using <div> and <span> elements depends on the specific use case and the context in which they are used. Here's a general guideline for when to use each:
 
@@ -214,7 +214,7 @@ In summary, use <div> when you need a block-level container for grouping and sty
 
 
 
-e.) The semantic value’s of header, main, footer, article, nav, section, aside
+e. The semantic value’s of header, main, footer, article, nav, section, aside
 
 <header>:
 
@@ -249,8 +249,7 @@ By utilizing these semantic elements appropriately, you provide structure and me
 
 
 
-
-f.) How to use headings (and why it’s important to follow the hierarchical order)
+f. How to use headings (and why it’s important to follow the hierarchical order)
 
 Headings (<h1>-<h6>) are important elements in HTML for organizing and structuring content on a web page. They serve multiple purposes, including:
 
@@ -285,7 +284,7 @@ Following the proper hierarchical order with headings helps create a well-struct
 
 
 
-g.) How to make lists in HTML
+g. How to make lists in HTML
 
 In HTML, you can create two types of lists: ordered lists and unordered lists. Here's how to create each type:
 
@@ -349,7 +348,7 @@ use ordered lists (<ol>) when the order of items is important, and use unordered
 
 
 
-h.) The differences between medias (SVG, GIF, PNG, JPG)
+h. The differences between medias (SVG, GIF, PNG, JPG)
 
 SVG, GIF, PNG, and JPG are different file formats used for different purposes. Here are the key differences between them:
 
@@ -386,9 +385,7 @@ In summary, SVG is a vector-based format suitable for scalable graphics and anim
 
 
 
-
-
-i.) How to structure data in a table
+i. How to structure data in a table
 
 To structure data in a table in HTML, follow these steps:
 
@@ -462,7 +459,7 @@ code
 
 
 
-j.) How to integrate a video in a webpage
+j. How to integrate a video in a webpage
 
 Prepare your video file: Convert your video to a web-compatible format like MP4, WebM, or Ogg. It's recommended to provide multiple formats to support different browsers.
 
@@ -499,7 +496,7 @@ Customize video styling: You can apply CSS styles to the <video> element to cont
 
 
 
-k.) How to integrate an audio file in a webpage
+k. How to integrate an audio file in a webpage
 
 Prepare your audio file: Convert your audio file to a web-compatible format like MP3, WAV, or Ogg. It's recommended to provide multiple formats to support different browsers.
 
@@ -537,7 +534,7 @@ Customize audio styling: You can apply CSS styles to the <audio> element to cont
 
 
 
-l.) How to embed external content
+l. How to embed external content
 Embedding Images:
 
 Use the <img> element to embed an external image into your webpage.
@@ -579,13 +576,13 @@ Set the src attribute of the <iframe> element to the URL of the external web pag
 Specify the dimensions of the iframe using the width and height attributes.
 Example:
 html
-Copy code
+code
 <iframe src="https://example.com" width="800" height="600"></iframe>
 
 
 
 
-m.) How to correctly structure an HTML page
+m. How to correctly structure an HTML page
 
 To correctly structure an HTML page, you should follow a standardized structure that includes essential elements. Here's a basic outline to help you structure your HTML page properly:
 
